@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="MediaElementEmbeddedSourceDotnet8.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <!-- MediaElement with different source types -->
+            <!-- MediaElement with URI source => Works -->
+            <toolkit:MediaElement HeightRequest="200" WidthRequest="500"
+                                  Source="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"/>  
+
+            <!-- MediaElement with embedded source => works in .net 8 -->
+            <toolkit:MediaElement HeightRequest="200" WidthRequest="500"
+                                  Source="embed://BigBuckBunny.mp4"/>  
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
