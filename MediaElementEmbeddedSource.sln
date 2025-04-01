@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35828.75
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaElementEmbeddedSource", "MediaElementEmbeddedSource.csproj", "{93F81436-3947-4651-82C3-B24CBBE9C533}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaElementEmbeddedSource", "MediaElementEmbeddedSource\MediaElementEmbeddedSource.csproj", "{93F81436-3947-4651-82C3-B24CBBE9C533}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaElementEmbeddedSourceDotnet8", "..\MediaElementEmbeddedSourceDotnet8\MediaElementEmbeddedSourceDotnet8.csproj", "{4FA38270-5552-42B9-8A25-CA6C479D38BE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaElementEmbeddedSourceDotnet8", "MediaElementEmbeddedSourceDotnet8\MediaElementEmbeddedSourceDotnet8.csproj", "{4FA38270-5552-42B9-8A25-CA6C479D38BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
